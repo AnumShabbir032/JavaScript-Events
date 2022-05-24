@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Events</title>
+</head>
+
+<body>
+    <!-- Ex-1 -->
+
+    <div class="containerOne">
+        <a href="javascript:void(0)" onclick="functionOne()">CLICK</a>
+    </div>
+
+    <!-- Ex-2 -->
+    <h1 class="heading">Mobile Phone LookUp</h1>
+    <div class="containerTwo">
+        <div class="img">
+            <img src="./images/apple iphone.jpg" onclick="functionTwo()" alt="">
+            <span>Apple iphone</span>
+        </div>
+        <div class="img">
+            <img src="./images/Apple-iPhone-PNG-Image--768x909.png" onclick="functionTwo()" alt="">
+            <span>Apple iPhone</span>
+        </div>
+        <div class="img">
+            <img src="./images/huawei p8.png" onclick="functionTwo()" alt="">
+            <span>Huawei p8</span>
+        </div>
+        <div class="img">
+            <img src="./images/iPhone 13 pro max.png" onclick="functionTwo()" alt="">
+            <span>iPhone 13 pro max</span>
+        </div>
+    </div>
+
+
+    <!-- Ex-3 -->
+
+    <div class="containerThree">
+        <table id="Table">
+            <tr>
+                <td colspan="4">Index Name Class</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Jhone</td>
+                <td>10</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Doe</td>
+                <td>9</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mark</td>
+                <td>10</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>James</td>
+                <td>8</td>
+                <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!-- Ex 4 -->
+
+    <div class="containerFour">
+        <img src="./images/img1.jpg" onmouseover="changeImg1(this)" onmouseout="changeImg2(this)" alt="">
+
+    </div>
+
+    <!-- Ex 5 -->
+    <div class="containerThree">
+        <p>Clicks: <a id="clicks">0</a></p>
+
+        <button type="button" onClick="onClick()">Click me</button>
+        <button type="button" onClick="onClickDelete()">Delete</button>
+       
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
