@@ -28,13 +28,22 @@ function deleteRow(row){
 //   }
 // }
 
-function changeImg1(e) {
-  e.src = "./image/img1.jpg"
+// function changeImg1(e) {
+//   e.src = "./image/img1.jpg"
+// }
+
+// function changeImg2(e) {
+//   e.src = "./image/img2.jpg"
+// }
+function changeImg(toggle, e) {
+  if (toggle == "on") {
+  e.src = "./images/img1.jpg";
+} else {
+  e.src = "./images/img2.jpg";
+}
 }
 
-function changeImg2(e) {
-  e.src = "./image/img2.jpg"
-}
+
 
 // Ex-5
 
