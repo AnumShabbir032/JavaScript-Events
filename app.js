@@ -20,21 +20,6 @@ function deleteRow(row){
 
 // Ex-4 
 
-// function changeImg(toggle,e){
-//   if (toggle == "img1") {
-//     e.src = "./image/img1.jpg";
-//   } else {
-//     e.src = "./image/img2.jpg";
-//   }
-// }
-
-// function changeImg1(e) {
-//   e.src = "./image/img1.jpg"
-// }
-
-// function changeImg2(e) {
-//   e.src = "./image/img2.jpg"
-// }
 function changeImg(toggle, e) {
   if (toggle == "on") {
   e.src = "./images/img1.jpg";
